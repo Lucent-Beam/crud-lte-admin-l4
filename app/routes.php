@@ -13,3 +13,4 @@
 
 Route::get('/','StudentController@index');
 Route::post('save','StudentController@saverecord');
+Route::post('showdata','StudentController@display');

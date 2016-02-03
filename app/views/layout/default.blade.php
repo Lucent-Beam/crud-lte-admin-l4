@@ -9,13 +9,18 @@
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="css/AdminLTE.min.css">
+    <link rel="stylesheet" href="css/dataTables.bootstrap.css">
     <script type="text/javascript" src="js/jquery.js">
-
+    </script>
+    <script type="text/javascript" src="js/dataTables.bootstrap.min.js">
+    </script>
+    <script type="text/javascript" src="js/jquery.dataTables.min.js">
     </script>
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="css/skins/_all-skins.min.css">
-    <title>Formulario</title>
+    <link rel="stylesheet" href="css/_all-skins.min.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <title>Admin LTE</title>
   </head>
   <body class="hold-transition skin-blue sidebar-mini">
     @yield('content')
